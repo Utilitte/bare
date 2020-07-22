@@ -17,16 +17,5 @@
         "psr-4": {
             "Utilitte\\#NAMESPACE#\\": "src/"
         }
-    },
-    "scripts": {
-        "check": [
-            "@cs",
-            "@phpstan",
-            "@tests"
-        ],
-        "tests": "vendor/bin/tester tests -C",
-        "phpstan": "vendor/bin/phpstan analyse -l 8 -c phpstan.neon src",
-        "cs": "vendor/bin/codesniffer",
-        "csfix": "vendor/bin/codefixer"
     }
 }
